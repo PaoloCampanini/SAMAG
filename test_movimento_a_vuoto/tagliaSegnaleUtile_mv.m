@@ -1,5 +1,5 @@
-function S_t = tagliaSegnaleUtile_sv(S,n,soglia_inizio,durata,margine_inizio)
-%tagliaSegnaleUtile_sv: Identifica l'inizio e la fine del sollevamento nel
+function S_t = tagliaSegnaleUtile_mv(S,n,soglia_inizio,durata,margine_inizio)
+%tagliaSegnaleUtile_mv: Identifica l'inizio e la fine del sollevamento nel
 %   dal segnale indicato e taglia la parte di segnale utile compresa.
 %
 %   INPUTS:

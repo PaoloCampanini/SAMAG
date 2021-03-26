@@ -1,0 +1,20 @@
+E' stato eseguito il test "movimento a vuoto" per diversi valori di carico del carrello: 0 kg, 24 kg, 48 kg, 72 kg.
+La durata del movimento è stata cronometrata a 8 secondi.
+Per ciascun valore di carico il test è stato ripetuto due volte.
+
+Le acquisizioni originali sono salvate nei file:
+- MV_0kg_8s.csv
+- MV_0kg_8s_2.csv
+- MV_24kg_8s.csv
+- MV_24kg_8s_2.csv
+- MV_48kg_8s.csv
+- MV_48kg_8s_2.csv
+- MV_72kg_8s.csv
+- MV_72kg_8s_2.csv
+
+La prima colonna di dati corrisponde ai tempi in [ms].
+La seconda colonna di dati corrisponde alla tensione applicata al motore.
+La terza colonna di dati corrisponde alla frequenza applicata al motore.
+La terza colonna di dati corrisponde alla corrente (RMS) che alimenta il motore.
+
+Nei file "Test_MV_05_03_2021.mat" sono salvati gli stessi dati.

@@ -1,5 +1,5 @@
-function ind = Ind_minErroreQuadraticoMedio_sv(Sn,S)
-%Ind_minErroreQuadraticoMedio_sv: Calcola un indice di somiglianza tra i
+function ind = Ind_minErroreQuadraticoMedio_mv(Sn,S)
+%Ind_minErroreQuadraticoMedio_mv: Calcola un indice di somiglianza tra i
 %   due segnali fonriti come argomenti della funzione. L'indice di
 %   somigianza è dato dal minimo errore quadratico tra i due segnali.
 
@@ -43,10 +43,10 @@ function ind = Ind_minErroreQuadraticoMedio_sv(Sn,S)
     ind = m_loc(indice_min_dist_centro);
     
     % Parte di codice per plot
-%     figure
-%     plotSegnale(Serr2);
-%     hold on
-%     plot(indice(indice_min_dist_centro)/Sn.f,m_loc(indice_min_dist_centro),'.','MarkerSize',20)
-%     title("Identificazione del minimo errore quadratico tra i due segnali")
-%     xlabel("")
+    figure
+    plotSegnale(Serr2);
+    hold on
+    plot(indice(indice_min_dist_centro)/Sn.f,m_loc(indice_min_dist_centro),'.','MarkerSize',20)
+    title("Identificazione del minimo errore quadratico tra i due segnali")
+    xlabel("")
 end
