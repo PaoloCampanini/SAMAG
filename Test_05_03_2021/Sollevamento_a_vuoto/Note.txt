@@ -1,0 +1,23 @@
+E' stato eseguito il test "sollevamento a vuoto" per diversi valori di carico del carrello: 0 kg, 11 kg, 24 kg, 37 kg, 58 kg, 57 kg.
+La durata del sollevamento è stata cronometrata a 8 secondi.
+Per ciascun valore di carico il test è stato ripetuto due volte.
+
+Le acquisizioni originali sono salvate nei file:
+- SV_0kg_8s.csv
+- SV_0kg_8s_2.csv
+- SV_11kg_8s.csv
+- SV_11kg_8s_2.csv
+- SV_24kg_8s.csv
+- SV_24kg_8s_2.csv
+- SV_37kg_8s.csv
+- SV_37kg_8s_2.csv
+- SV_48kg_8s.csv
+- SV_48kg_8s_2.csv
+- SV_57kg_8s.csv
+- SV_57kg_8s_2.csv
+
+La prima colonna di dati corrisponde ai tempi in [ms].
+La seconda colonna di dati corrisponde alla corrente che alimenta il motore.
+La terza colonna di dati corrisponde alla tensione applicata al motore.
+
+Nei file "Test_SV_05_03_2021.mat" sono salvati gli stessi dati.

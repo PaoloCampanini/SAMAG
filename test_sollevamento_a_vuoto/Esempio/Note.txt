@@ -1,0 +1,8 @@
+E' stato eseguito il test "sollevamento a vuoto" una volta con carrello scarico e una volta con un carico di circa 22 kg.
+La durata del sollevamento è stata cronometrata a 5 secondi.
+
+Le acquisizioni originali sono salvate nei file:
+- DATI_sv_0kg_5s.csv
+- DATI_sv_22kg_5s.csv
+
+Nei file omonimi con estensione .mat sono salvati gli stessi dati.
